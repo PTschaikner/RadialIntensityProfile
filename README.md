@@ -1,6 +1,6 @@
 # Goal
 
-RadialIntensityProfile is a FIJI and ImageJ macro to analyse the radial distribution of a fluorescent signal of interest in respect to a cells nucleus. This can be helpful to quantify the perinuclear localisation of a protein of Interest
+RadialIntensityProfile is a FIJI and ImageJ macro to analyse the radial distribution of a fluorescent signal of interest in relation to a cell's nucleus. This can be helpful to quantify the perinuclear localisation of a protein of Interest
 
 # Citation
 
