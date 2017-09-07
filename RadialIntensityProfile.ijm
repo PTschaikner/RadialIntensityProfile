@@ -2,7 +2,7 @@ getPixelSize(unit, pixelw, pixelh) 			// gets the pixel dimensions
 run("Set Measurements...", "area mean min center integrated display redirect=None decimal=4"); 
 imageTitle=getTitle();
 red=imageTitle +" (red)";					
-blue=imageTitle +" (blue)";					// sets the names for the chanels
+blue=imageTitle +" (blue)";					// sets the names for the channels
 
 run("Split Channels");
 selectWindow(red);
