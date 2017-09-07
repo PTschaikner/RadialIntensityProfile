@@ -1,5 +1,5 @@
 getPixelSize(unit, pixelw, pixelh) 			// gets the pixel dimensions
-run("Set Measurements...", "area mean min center integrated display redirect=None decimal=4"); // sets which things to measure
+run("Set Measurements...", "area mean min center integrated display redirect=None decimal=4"); 
 imageTitle=getTitle();
 red=imageTitle +" (red)";					
 blue=imageTitle +" (blue)";					// sets the names for the chanels
@@ -19,14 +19,14 @@ for(i=0; i<nResults; i++) {
         CenterofMassDapiX=getResult("XM", i);
 		CenterofMassDapiY=getResult("YM", i);
         }
-} 											//DAPI Channel Thresholding to get center of mass of the nucleus
+} 											//DAPI Channel Thresholding to obtain center of mass of the nucleus
  		
 
 
 
   
 x = CenterofMassDapiX/pixelw; 				
-y = CenterofMassDapiY/pixelw;				// X and Y of the Center of Mass of the Nucleus
+y = CenterofMassDapiY/pixelw;				// X and Y position of the Center of Mass of the Nucleus
 radius= 20;  								// radius of the first circle (pixel)
 width = 20; 								// increase of the radius for each iteration
 
