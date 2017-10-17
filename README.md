@@ -12,3 +12,5 @@ The macro takes RGB images of a cell with a Nuclear staining (crop the image to 
 # Citation
 
 Please note that this macro is based on a publication. If you use it successfully for your research please be so kind to cite our work:
+
+Filipek, P. A., de Araujo, M. E. G., Vogel, G. F., De Smet, C. H., Eberharter, D., Rebsamen, M., … Huber, L. A. (2017). *LAMTOR/Ragulator is a negative regulator of Arl8b- and BORC-dependent late endosomal positioning*. The Journal of Cell Biology, jcb.201703061. [doi.org/10.1083/jcb.201703061](http://doi.org/10.1083/jcb.201703061)
